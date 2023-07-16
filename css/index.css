@@ -1,0 +1,204 @@
+body {
+    background-color: red;
+}
+.switch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.joycon-left {
+    width: 8em;
+    padding-top: 25em;
+    background-color: white;
+    border-radius: 5em 0.2em 0.2em 5em;
+    float: left;
+    margin-right: 0.2em;
+    position: relative;
+}
+.joycon-right {
+    width: 8em;
+    padding-top: 25em;
+    margin-left: 0.2em;
+    background-color: white;
+    border-radius: 0.2em 5em 5em 0.2em;
+    float: right;
+    position: relative;
+}
+.tablet {
+    width: 40em;
+    background-color: black;
+    padding-top: 25em;
+    float: left;
+    border-radius: 1.5em 1.5em 0 0;
+    position: relative;
+}
+.screen {
+    border-color: #1a1110;
+    border-style: solid;
+    border-width: 0.6em;
+    background-color: #ff51ebff;
+    width: 37em;
+    height:22em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.joycon-minus {
+    width: 1.2em;
+    height: 0.4em;
+    border-radius: 0.1em;
+    background-color:black;
+    position: absolute;
+    top: 2em;
+    right: 0.8em;
+}
+
+.joycon-plus-horizontal {
+    position: absolute;
+    width: 1.2em;
+    height: 0.4em; /* Reduce the height to create a thinner horizontal line */
+    border-radius: 0.1em;
+    background-color: black;
+    top: 2em; /* Vertically center the horizontal line */
+    left: 1.2em; /* Horizontally center the horizontal line */
+    transform: translate(-50%, -50%); /* Adjust the position using transform */
+  }
+  
+  .joycon-plus-vertical {
+    position: absolute;
+    width: 0.4em; /* Reduce the width to create a thinner vertical line */
+    height: 1.2em;
+    border-radius: 0.1em;
+    background-color: black;
+    top: 2em; /* Vertically center the vertical line */
+    left: 1.2em; /* Horizontally center the vertical line */
+    transform: translate(-50%, -50%); /* Adjust the position using transform */
+  }
+
+  .analog-left {
+    width: 4em;
+    height: 4em;
+    background-color: black;
+    position: absolute;
+    top: 4em;
+    left: 2em;
+    border-radius: 100%;
+  }
+
+  .dpad-up {
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .dpad-down {
+    position: absolute;
+    top: 14em;
+    left: 3em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .dpad-left {
+    position: absolute;
+    top: 12em;
+    left: 0.8em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .dpad-right {
+    position: absolute;
+    top: 12em;
+    right: 0.8em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .btn-scr {
+    position: absolute;
+    top: 17em;
+    right: 1.8em;
+    background-color: black;
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .analog-right {
+    width: 4em;
+    height: 4em;
+    background-color: black;
+    position: absolute;
+    top: 12em;
+    left: 2em;
+    border-radius: 100%;
+  }
+
+  .btn-x {
+    position: absolute;
+    top: 4em;
+    left: 3em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .btn-b{
+    position: absolute;
+    top: 8em;
+    left: 3em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .btn-y {
+    position: absolute;
+    top: 6em;
+    left: 0.8em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .btn-a {
+    position: absolute;
+    top: 6em;
+    right: 0.8em;
+    background-color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+  }
+
+  .btn-home {
+    position: absolute;
+    top: 17em;
+    left: 1.8em;
+    background-color: grey;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+  }
+
+  .btn-text {
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 0.5em;
+    font-weight: bold;
+  }
